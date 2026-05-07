@@ -1,0 +1,62 @@
+:root {
+  color: #172033;
+  background: #f6f8fb;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.page {
+  min-height: 100svh;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+}
+
+.panel {
+  width: min(100%, 640px);
+  padding: 32px;
+  background: #ffffff;
+  border: 1px solid #d7deea;
+  border-radius: 8px;
+  box-shadow: 0 16px 48px rgb(23 32 51 / 8%);
+}
+
+.eyebrow {
+  margin: 0 0 8px;
+  color: #2563eb;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+h1 {
+  margin: 0 0 16px;
+  font-size: 32px;
+  line-height: 1.15;
+}
+
+p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.note {
+  margin-top: 8px;
+  color: #64748b;
+}
